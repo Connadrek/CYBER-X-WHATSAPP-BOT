@@ -26,29 +26,13 @@
             "required": true,
             "value": "CYBER-X"
         },
-        "WAPRESENCE": {
-      "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
-      "required" :false,
-      "value": "available"
-        },
+        
         "WORK_TYPE": {
             "description": "Add the worktype of the Bot ( private , public , only_group )",
             "required": true,
             "value": "private"
         },
-         "AUTO_READ_STATUS": {
-      "description": "Fill the value true if you want bot view your Statuses.",
-      "required" :false,
-      "value": "true"
-    }, 
-        "PREFIX": {
-      "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
-      "value": "."
-    },
-         "OWNER_NUMBER": {
-      "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "2349134098592"
-    },
+        
     "buildpacks": [
         {
             "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"

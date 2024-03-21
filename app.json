@@ -14,17 +14,17 @@
         "SESSION_ID": {
             "description": "Type the Session-ID you got from scaning QR",
             "required": true,
-            "value": "cyber-x@;;;ZYdnFRjC#IX8lDcbB9bIVcMhdVVRhckR9HG5Hgh-LSFOq5B0U2yc"
+            "value": ""
         },
         "HEROKU_API_KEY": {
             "description": "Enter your heroku account api key",
             "required": true,
-            "value": "9b48b143-1e16-48d6-82b4-86f29d95c68f"
+            "value": ""
         },
         "HEROKU_APP_NAME": {
             "description": "Enter you pushed app Name",
             "required": true,
-            "value": "CYBER-X"
+            "value": ""
         },
         
         "WORK_TYPE": {

@@ -14,23 +14,40 @@
         "SESSION_ID": {
             "description": "Type the Session-ID you got from scaning QR",
             "required": true,
-            "value": ""
+            "value": "cyber-x@;;;ZYdnFRjC#IX8lDcbB9bIVcMhdVVRhckR9HG5Hgh-LSFOq5B0U2yc"
         },
         "HEROKU_API_KEY": {
             "description": "Enter your heroku account api key",
             "required": true,
-            "value": ""
+            "value": "9b48b143-1e16-48d6-82b4-86f29d95c68f"
         },
         "HEROKU_APP_NAME": {
             "description": "Enter you pushed app Name",
             "required": true,
-            "value": ""
+            "value": "CYBER-X"
+        },
+        "WAPRESENCE": {
+      "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
+      "required" :false,
+      "value": "available"
         },
         "WORK_TYPE": {
             "description": "Add the worktype of the Bot ( private , public , only_group )",
             "required": true,
             "value": "private"
-        }
+        },
+         "AUTO_READ_STATUS": {
+      "description": "Fill the value true if you want bot view your Statuses.",
+      "required" :false,
+      "value": "true"
+    }, 
+        "PREFIX": {
+      "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
+      "value": "."
+    },
+         "OWNER_NUMBER": {
+      "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
+      "value": "2349134098592"
     },
     "buildpacks": [
         {
